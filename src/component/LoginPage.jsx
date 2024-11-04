@@ -1,6 +1,9 @@
 import React from 'react'
+import { useContext } from 'react'
+import { AppContext } from '../App'
 
 const LoginPage = () => {
+  const {userName} = useContext(AppContext)
   return (
     <div>
         <div>
@@ -10,6 +13,9 @@ const LoginPage = () => {
             <p>PhoneNumber</p>
             <p>Address</p>
             <p>Email</p>
+            <a href="https://www.w3schools.com"> this is a link</a>
+            <h3>world best Frontend Developer and Forest
+               trading is {userName} </h3>
         </div>
     </div>
   )

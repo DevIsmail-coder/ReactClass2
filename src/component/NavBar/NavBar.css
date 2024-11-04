@@ -1,0 +1,7 @@
+.NavBarmain{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
